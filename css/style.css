@@ -1,0 +1,50 @@
+body {
+    background: rgb(241, 243, 244);
+    background-size: 100%;
+    /* color: aliceblue; */
+}
+
+.padding_top {
+    padding-top: 3rem;
+}
+
+.margin_bottom {
+    margin-bottom: 3rem;
+}
+
+.padding_x {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.display_center {
+    display: flex;
+    align-items: center;
+}
+
+#cover {
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    background: url('../img/bg.jpg') repeat;
+    background-size: 100%;
+    color: aliceblue;
+}
+
+#cards_section,
+#show-cases,
+#section_header,
+#about_myself {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.card_min_width {
+    min-width: 226px;
+}
+
+.hobby_cover {
+    color: aliceblue;
+    background: url('../img/hobby_banner.png') repeat;
+    background-size: 100%;
+}
